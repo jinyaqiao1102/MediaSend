@@ -19,7 +19,7 @@ public class UDPTest extends Activity {
 	public static final int SERVERPORT = 4444;
 	private boolean isRecord = false;// 设置正在录制的状态s
 	private AudioRecord audioRecord;
-	// 音频获取源
+	// 音频获取源方法烦烦烦烦烦烦烦烦烦
 	private int audioSource = MediaRecorder.AudioSource.MIC;
 	// 设置音频采样率，44100是目前的标准，但是某些设备仍然支持22050，16000，11025
 	private static int sampleRateInHz = 22050;
